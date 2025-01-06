@@ -28,7 +28,7 @@ h2{
     box-shadow:azure 10px;
     background-color: rgb(2, 34, 2);
     width: 800px;
-    height: 50vh;
+    height: fit-content;
 border-top-left-radius: 40px;
 border-top-right-radius:40px ;
 border-bottom-left-radius: 20px;
@@ -37,6 +37,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+margin-bottom: 30px;
 }
 ul{
     display: flex;
@@ -59,10 +60,17 @@ a{
     color: white;
     margin-bottom: 20px;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
 }
 .nsima, .rice, .chips{
     height: 100px;
     width: 100px;
     background-color: white;
     border-radius: 10px;
+    background-position: center;
+    background-size: 100%;
 }
