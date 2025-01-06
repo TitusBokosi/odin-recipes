@@ -22,6 +22,7 @@
 }
 h2{
     font-size: 2rem;
+    margin-bottom: 20px;
 }
 .list_container{
     box-shadow:azure 10px;
@@ -39,21 +40,28 @@ align-items: center;
 }
 ul{
     display: flex;
-    flex-direction: column;
-    justify-self: flex-start;
+    justify-content: space-between;
     color: white;
-    align-self: flex-start;
-    margin-left: 80px;
     
 }
 
 li{
     list-style: none;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     color: white;
+    margin-left: 40px;
+    margin-right: 80px;
 }
 a{
     color: white;
     margin-bottom: 20px;
     text-decoration: none;
+}
+.nsima, .rice, .chips{
+    height: 100px;
+    width: 100px;
+    background-color: white;
 }
