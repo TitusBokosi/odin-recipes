@@ -40,4 +40,20 @@ align-items: center;
 ul{
     display: flex;
     flex-direction: column;
+    justify-self: flex-start;
+    color: white;
+    align-self: flex-start;
+    margin-left: 80px;
+    
+}
+
+li{
+    list-style: none;
+    display: flex;
+    color: white;
+}
+a{
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: none;
 }
