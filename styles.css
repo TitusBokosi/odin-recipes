@@ -18,6 +18,7 @@
 }
 .h1{
     font-size:5rem;
+    justify-self: flex-start;
     
 }
 h2{
