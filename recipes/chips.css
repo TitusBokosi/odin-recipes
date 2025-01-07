@@ -37,7 +37,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 2%;
 
 }
@@ -47,14 +47,15 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 300px;
-    gap: 8%;
+    gap: 5%;
 }
-img{
-    border-radius: 1%;
+.img-container{
     height: 100%;
-    width: auto;
-    align-items: center;
-    
+    width: 100%;
+    background-image: url(./homemade-chips-4.jpg);
+    background-position: center;
+    background-size:contain;
+    border-radius: 2%;
 }
 
 
